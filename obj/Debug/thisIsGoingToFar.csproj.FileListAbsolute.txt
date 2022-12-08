@@ -1,0 +1,11 @@
+C:\Users\andre\notDocuments\thisIsGoingToFar\bin\Debug\thisIsGoingToFar.exe.config
+C:\Users\andre\notDocuments\thisIsGoingToFar\bin\Debug\thisIsGoingToFar.exe
+C:\Users\andre\notDocuments\thisIsGoingToFar\bin\Debug\thisIsGoingToFar.pdb
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.csproj.AssemblyReference.cache
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.csproj.SuggestedBindingRedirects.cache
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.Form1.resources
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.Properties.Resources.resources
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.csproj.GenerateResource.cache
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.csproj.CoreCompileInputs.cache
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.exe
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.pdb
