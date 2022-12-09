@@ -1,0 +1,12 @@
+﻿Shulk	desc
+Melia	desc
+Dunban	desc
+Reyn	desc
+Fiora	desc
+Otharon	desc
+Vangarre	desc
+Tyrea	desc
+Mumkar	desc
+Zanza	desc
+Dickson	desc
+Alvis	desc

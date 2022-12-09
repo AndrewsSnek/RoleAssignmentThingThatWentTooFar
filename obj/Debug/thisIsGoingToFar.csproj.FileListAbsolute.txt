@@ -9,3 +9,4 @@ C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.csproj.G
 C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.csproj.CoreCompileInputs.cache
 C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.exe
 C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.pdb
+C:\Users\andre\notDocuments\thisIsGoingToFar\obj\Debug\thisIsGoingToFar.Form2.resources
