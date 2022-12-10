@@ -16,7 +16,7 @@ namespace thisIsGoingToFar
         [STAThread]
         static void Main()
         {
-            string[] roles = {
+            /*string[] roles = {
                 "Shulk",
                 "Melia",
                 "Dunban",
@@ -28,11 +28,21 @@ namespace thisIsGoingToFar
                 "Mumkar*",
                 "Zanza*",
                 "Dickson*",
-                "Alvis*",};
+                "Alvis*",};*/
+
+            string[] rawFile = System.IO.File.ReadAllText("TextFile1.txt").Split('\n');
+
+            Dictionary<string, string> descriptions = new Dictionary<string, string>();
+            string[] roles = new string[rawFile.Length];
+            for (int i = 0; i < rawFile.Length; i++)
+            {
+                roles[i] = rawFile[i].Split('\t')[0];
+                descriptions.Add(roles[i], rawFile[i].Split('\t')[1]);
+            }
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(roles));
+            Application.Run(new Form1(roles,descriptions));
         }
     }
 }

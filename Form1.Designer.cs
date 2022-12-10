@@ -43,6 +43,7 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.players.SuspendLayout();
             this.roles.SuspendLayout();
@@ -91,12 +92,12 @@
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.richTextBox1.Size = new System.Drawing.Size(368, 286);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "remove this sample text\nor else\nor else these will be used as names\nwhich would b" +
-    "e weird";
+            this.richTextBox1.Text = "name1";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // roles
             // 
+            this.roles.Controls.Add(this.richTextBox2);
             this.roles.Controls.Add(this.button3);
             this.roles.Controls.Add(this.checkedListBox1);
             this.roles.Controls.Add(this.button2);
@@ -135,6 +136,7 @@
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(302, 256);
             this.checkedListBox1.TabIndex = 7;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // button2
             // 
@@ -221,6 +223,17 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Number of players: 9\r\nNumber of roles: 9";
             // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.Location = new System.Drawing.Point(599, 4);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.RightMargin = 150;
+            this.richTextBox2.Size = new System.Drawing.Size(166, 287);
+            this.richTextBox2.TabIndex = 9;
+            this.richTextBox2.Text = "COLONY - Once a night you can use a vision to learn the identity of one of the Pl" +
+    "ayers";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,6 +272,7 @@
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 

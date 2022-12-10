@@ -15,13 +15,15 @@ namespace thisIsGoingToFar
     {
         public List<string> selectedRoleList = new List<string>();
         public string[] possibleRoleList;
+        public Dictionary<string, string> description;
 
         private int playerCount = 0;
         private int roleCount   = 0;
 
-        public Form1(string[] roles)
+        public Form1(string[] roles, Dictionary<string, string> _descriptions)
         {
             possibleRoleList = roles;
+            description = _descriptions;
             InitializeComponent();
             updateSelectedRoleGUI();
             updatePossibleRoleTable();
@@ -150,6 +152,11 @@ namespace thisIsGoingToFar
             addSelectedRoles();
             roleCount = listBox1.Items.Count + decimal.ToInt32(numericUpDown1.Value);
             updateCounts();
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            richTextBox2.Text = description[checkedListBox1.SelectedItem.ToString()];
         }
     }
 }
